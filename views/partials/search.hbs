@@ -1,0 +1,31 @@
+
+<center>
+
+<p>Search for News here:
+
+<form action="/searchNews" method="post">
+	</br >
+	<div class="btn-group" data-toggle="buttons">
+		<label class="btn btn-primary btn-sm active">
+			<input type="radio" checked="" name="search" value="top-headlines"> Headlines
+		</label>
+		
+		<label class="btn btn-primary btn-sm">
+			<input type="radio" name="search"  value="popular"> Latest
+		</label>
+	</div>
+
+	</br>
+	<input type="radio" name="news" value="independent" checked> Independent
+	<input type="radio" name="news" value="financial-times" > FT
+	<input type="radio" name="news" value="the-guardian-uk"> guardian
+	<input type="radio" name="news" value="the-economist"> economist
+	<br />
+
+	<center>
+    <input id="team_name" type="text" name="name_field" placeholder="Type Here" size="100px">
+    <input type="submit" value="Search" >
+    </center>
+</form>
+
+</center>
