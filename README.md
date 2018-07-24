@@ -20,7 +20,7 @@ npm install
 Once al the modules are installed, then you can run the server via npm start. The application will run on localhost:3000
 
 ```
-npm start || nodemon start
+npm start 
 ```
 
 
